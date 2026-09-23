@@ -13,7 +13,6 @@ const Toast=({toast})=>{
         },3000);
         return ()=> clearTimeout(timer);
     },[]);
-    console.log(toast);
 
     return (
 
