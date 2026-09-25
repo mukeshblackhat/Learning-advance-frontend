@@ -16,8 +16,8 @@ const ToastProvider =({children})=>{
     }
 
     return (
-        <ToastContext value={{addToast,removeToast}}>
-            <ToastContainer toasts={toasts} />
+        <ToastContext value={{toasts,addToast,removeToast}}>
+            <ToastContainer  />
             {children}
         </ToastContext>
     )

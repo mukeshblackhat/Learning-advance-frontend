@@ -1,7 +1,8 @@
 import Toast from "./Toast";
+import useToast from "../context/Toast/useToast";
 
-
-const ToastContainer =({toasts})=>{
+const ToastContainer =()=>{
+const {toasts}=useToast();
 return (
 <div className="absolute top-0 right-0 bg-white-200 p-2">
 
